@@ -1,0 +1,71 @@
+.article-list {
+  max-width: 100%;
+  margin-bottom: auto;
+  padding: 20px;
+
+  @media (min-width: 1024px) {
+    max-width: 800px;
+  }
+
+  h1 {
+    color: #121212;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.period-buttons {
+  margin-bottom: 20px;
+}
+
+
+
+.article-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.article-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.article-abstract {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.article-metadata {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+
+  @media (min-width: 1024px) {
+    height: 545px;
+  }
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
